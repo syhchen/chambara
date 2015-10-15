@@ -1,0 +1,130 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "base";
+
+body {
+    font-family: $default-font;
+    font-size: $default-font-size;
+    background: $default-background;
+    color: $default-color;
+}
+
+.content {
+    margin: 0; padding: 0;
+}
+
+/* SPLASH */
+
+.splash {
+    width: 100%; height: $splash-height;
+    margin: 0; padding: 0;
+    position: relative;
+    background: #111;
+
+    .calltoaction {
+        @include absolute-center;
+        width: 600px; height: 265px;
+        text-align: center;
+        z-index: 2;
+
+        .logo {
+            width: 100%;
+        }
+
+        $height: 50px;
+        a {
+            width: auto; height: $height;
+            margin: 10px auto 0 auto; padding: 0 20px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            line-height: $height;
+            letter-spacing: 2px;
+            background: #fff;
+            color: #000;
+            border: 4px solid #000;
+        }
+    }
+
+    .overlay {
+        @include absolute-center;
+        width: 100%; height: 100%;
+        // background: rgba(0,0,0,0.25);
+        z-index: 1;
+
+        .ribbons {
+            position: absolute;
+            top: 0; right: 40px;
+            font-size: 0;
+
+            $width: 100px;
+            $height: 160px;
+            $background: white;
+            .ribbon {
+                width: $width; height: $height;
+                margin-left: 10px;
+                position: relative;
+                display: inline-block;
+                font-size: $default-font-size;
+                text-align: center;
+                line-height: $height;
+                background: $background;
+
+                img {
+                    width: 80%;
+                    padding-top: 5px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+            .ribbon:after {
+                content: "";
+                width: 0; height: 0;
+                position: absolute;
+                bottom: -($width/2 + 2); left: 0;
+                border: $width/2 solid $background;
+                border-bottom-color: transparent;
+                z-index: -1;
+            }
+        }
+    }
+
+    .scene {
+        width: 100%; height: 100%;
+        overflow: hidden;
+
+        .layer {
+            width: 100%; height: 100%;
+
+            $crop: 10%;
+            &>img {
+                @include absolute-center;
+                width: 100% + $crop;
+                left: -$crop/2;
+            }
+        }
+    }
+}
+
+/* ONE LINER */
+.oneliner {
+    @include container;
+
+    p {
+        @include span(8);
+        margin: 0; padding: 120px span(2);
+        font-size: 22px;
+        text-align: center;
+        line-height: 42px;
+        letter-spacing: 1px;
+
+        strong {
+            text-transform: uppercase;
+        }
+    }
+}

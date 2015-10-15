@@ -3,16 +3,73 @@
     <head>
         <!-- Designed and developed by Stephen Chen. Website: http://stephenc.me/ -->
         <meta name="author" content="Stephen Chen">
-
         <meta charset="UTF-8">
         <title>Chambara</title>
-        <meta name="description" content="Chambara - Splitscreen Stealth Action ">
-        <meta name="keywords" content="Chambara, Chambara Game, videogames, Dare to be Digital, USC Games, USC, Overly Kinetic, multiplayer games, indie games, local multiplayer, stealth">
+        <meta name="description" content="Chambara - Splitscreen Stealth Action.">
+        <meta name="keywords" content="Chambara, Chambara Game, Team OK, videogames, Dare to be Digital, USC Games, USC, Overly Kinetic, multiplayer games, indie games, local multiplayer, stealth">
         <link rel="icon" href="favicon.ico">
-
-        <link rel="stylesheet" href="css/screen.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/temp.css">
     </head>
     <body>
+        <div class="content">
+            <section class="splash">
+                <div class="calltoaction">
+                    <img src="img/chambara.png" alt="Chambara" class="logo">
+                    <a href="#download">Download The Demo</a>
+                </div>
+                <div class="overlay">
+                    <div class="ribbons">
+                        <div class="ribbon"><img src="img/awards/baftalaurels.png" alt="BAFTA Games Ones To Watch 2015"></div>
+                        <div class="ribbon"><img src="img/awards/indiecadelaurels.png" alt="Indiecade Official Selection 2015"></div>
+                    </div>
+                </div>
+                <ul class="scene" id="scene">
+                    <li class="layer" data-depth="0.00"><img src="img/splash/0_sky_lossy.png"></li>
+                    <li class="layer" data-depth="0.15"><img src="img/splash/0_lanterns.png"></li>
+                    <li class="layer" data-depth="0.30"><img src="img/splash/1_buildings.png"></li>
+                    <li class="layer" data-depth="0.45"><img src="img/splash/2_lanterns.png"></li>
+                    <li class="layer" data-depth="0.60"><img src="img/splash/3_buildings.png"></li>
+                    <li class="layer" data-depth="0.75"><img src="img/splash/4_buildings.png"></li>
+                    <li class="layer" data-depth="0.90"><img src="img/splash/5_lanterns.png"></li>
+                </ul>
+            </section>
+            <section class="oneliner">
+                <p><strong>Chambara</strong> is a local multiplayer stealth-deathmatch game with only two colors, allowing players to seamlessly camouflage themselves with the environment. This empowers players to sneak, search, and ambush each other in dramatic, stylish duels.</p>
+            </section>
 
+
+            <!-- TODO: refactor START -->
+            <div class="section stuff" style="background-image: url('img/movies/coremechanic.gif'); background-size: cover;"></div>
+            <div class="section">
+                <div class="skew middle black">
+                    <div class="content"></div>
+                </div>
+            </div>
+            <div class="section stuff" style="background-image: url('img/movies/0_level.gif'); background-size: cover;"></div>
+            <div class="section">
+                <div class="skew middle black">
+                    <div class="content"></div>
+                </div>
+            </div>
+            <div class="section stuff" style="background-image: url('img/movies/1_level.gif'); background-size: cover;"></div>
+            <div class="section">
+                <div class="skew middle black">
+                    <div class="content"></div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="skew middle black">
+                    <div class="content">
+                    </div>
+                </div>
+            </div>
+            <!-- refactor END -->
+
+
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

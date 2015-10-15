@@ -1,3 +1,29 @@
 /* defaults */
+/* ======== */
+
+$default-font                : 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$default-font-size           : 16px !default;
 $default-background          : #000 !default;
-$default-color               : #FFF !default;
+$default-color               : #fff !default;
+
+/* grid */
+/* ==== */
+
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+);
+
+/* mixins */
+/* ====== */
+@mixin absolute-center() {
+    margin: auto; padding: 0;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+/* splash */
+/* ====== */
+$splash-height               : 700px;
