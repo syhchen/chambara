@@ -203,10 +203,95 @@ body {
 
 /* AS FEATURED ON */
 .asfeaturedon {
-    height: 200px;
+    $height: 200px;
+    height: $height;
+    text-align: left;
+    line-height: $height;
+    background: #333;
+
+    h1 {
+        margin-left: $default-side-padding;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    ul {
+        display: inline-block;
+        line-height: $height;
+
+        li {
+            display: inline-block;
+
+            &:before {
+                content: "";
+                width: 1px; height: $height;
+                margin-left: 40px;
+                display: inline-block;
+                text-align: center;
+                vertical-align: middle;
+                background: rgba(255,255,255,0.2);
+            }
+
+            img, p {
+                padding-left: 40px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            p {
+                width: 300px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+/* TEAM */
+.team {
+    padding: 50px 20px;
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
     text-align: center;
-    line-height: 200px;
-    background: #777;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+    .overlay {
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        background: rgba(0,0,0,0.4);
+        z-index: 0;
+    }
+
+    *>a {
+        font-weight: 700;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    h1 {
+        margin-bottom: 12px;
+        position: relative;
+        font-size: 24px;
+        line-height: 36px;
+        z-index: 1;
+    }
+
+    .info {
+        position: relative;
+        z-index: 1;
+    }
+
+    img {
+        width: 140px;
+        margin-top: 25px;
+    }
 }
 
 /* FOOTER */
