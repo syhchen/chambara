@@ -203,15 +203,22 @@ body {
 
 /* AS FEATURED ON */
 .asfeaturedon {
-    $height: 200px;
-    height: $height;
+    $height: 220px;
+    height: $height; width: 100%;
     text-align: left;
     line-height: $height;
-    background: #333;
+    background: #000;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 
     h1 {
         margin-left: $default-side-padding;
-        display: inline-block;
+        float: left;
         font-size: 18px;
         font-weight: 700;
         letter-spacing: 2px;
@@ -219,11 +226,20 @@ body {
     }
 
     ul {
+        height: $height;
+        width: 4400px;
+        // float: left;
+        // line-height: $height;
+        // overflow-x: auto;
+        // overflow-y: hidden;
         display: inline-block;
-        line-height: $height;
 
         li {
+            height: $height;
             display: inline-block;
+            line-height: $height;
+            white-space: normal;
+            float: left;
 
             &:before {
                 content: "";
