@@ -191,10 +191,56 @@ body {
 
 /* DOWNLOAD */
 .download {
-    padding: 200px;
+    padding: 100px $default-side-padding;
     text-align: center;
     background: #fff;
     color: #000;
+
+    h1 {
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .mc-field-group {
+        font-size: 0;
+
+        label, input {
+            margin: 0; padding: 4px 8px;
+            display: inline-block;
+            font-size: 18px;
+            vertical-align: middle;
+            border: 2px solid #000;
+        }
+        label {
+            height: 32px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 32px;
+            background: #000;
+            color: #fff;
+        }
+        input {
+            width: 230px; height: 32px;
+        }
+    }
+
+    #mc-embedded-subscribe {
+        width: 240px;
+        margin: 50px 0 0 0; padding: 12px 0;
+        border: none;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        background: #000;
+        color: #fff;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 
     a, .subscribe {
         font-size: 14px;

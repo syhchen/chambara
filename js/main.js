@@ -1,6 +1,5 @@
-// var scene = document.getElementById('scene');
-// var parallax = new Parallax(scene);
-
+var scene = document.getElementById('scene');
+var parallax = new Parallax(scene);
 
 $('#download-link').click(function(e) {
     e.preventDefault();
