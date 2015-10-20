@@ -186,7 +186,34 @@ body {
 
 /* THE GAME */
 .thegame {
-    @include skew;
+    // @include skew;
+    .parallax-window {
+        height: 320px;
+
+        background-size: cover;
+        background-position: center;
+    }
+    .blurb {
+        height: 280px;
+
+        @include container;
+
+        p {
+            @include span(10);
+            @include susy-breakpoint(768px, $susy) {
+                @include span(8);
+                padding: 80px span(2);
+                font-size: 20px;
+            }
+            margin: 0; padding: 60px span(1);
+            position: relative;
+            font-size: 16px;
+            text-align: center;
+            line-height: 42px;
+            letter-spacing: 1px;
+            z-index: 1;
+        }
+    }
 }
 
 /* DOWNLOAD */

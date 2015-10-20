@@ -11,7 +11,7 @@
         <link rel="icon" href="favicon.ico">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/temp.css">
+        <!-- <link rel="stylesheet" href="css/temp.css"> -->
     </head>
     <body>
 
@@ -43,29 +43,15 @@
                 <p><strong>Chambara</strong> is a local multiplayer stealth-deathmatch game with only two colors, allowing players to seamlessly camouflage themselves with the environment. This empowers players to sneak, search, and ambush each other in dramatic, stylish duels.</p>
             </section>
 
-
-            <!-- TODO: refactor START -->
             <section class="thegame">
-                <div class="section stuff" style="background-image: url('img/movies/0_level.gif'); background-size: cover;"></div>
-                <div class="section">
-                    <div class="skew middle black">
-                        <div class="content">Mastery comes with spatial understanding.</div>
-                    </div>
-                </div>
-                <div class="section stuff" style="background-image: url('img/movies/1_level.gif'); background-size: cover;"></div>
-                <div class="section">
-                    <div class="skew middle black">
-                        <div class="content"><p>Positioning in 3D space makes you invisible from one angle, but vulnerable from another. Maneuver skillfully to lure opponents into ambushes!</p></div>
-                    </div>
-                </div>
-                <div class="section stuff" style="background-image: url('img/movies/coremechanic.gif'); background-size: cover;"></div>
-                <!-- <div class="section">
-                    <div class="skew middle black">
-                        <div class="content"><p>Positioning in 3D space makes you invisible from one angle, but vulnerable from another. Maneuver skillfully to lure opponents into ambushes!</p></div>
-                    </div>
-                </div> -->
+                <!-- <div class="parallax-window" data-parallax="scroll" data-speed="0.2" data-image-src="img/movies/0_level.gif"></div> -->
+                <div class="parallax-window" style="background-image: url('img/movies/0_level.gif');"></div>
+                <div class="blurb"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                <div class="parallax-window" style="background-image: url('img/movies/1_level_left.gif');"></div>
+                <div class="blurb"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                <div class="parallax-window" style="background-image: url('img/movies/coremechanic.gif');"></div>
+                <div class="blurb"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
             </section>
-            <!-- refactor END -->
 
             <section class="download" id="download">
                 <!-- TODO: separate email lists for "I want updates" or "I don't want updates." -->
@@ -127,6 +113,7 @@
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/parallax.js"></script>
+        <!-- <script src="js/parallax_scroll.js"></script> -->
         <script src="js/main.js"></script>
     </body>
 </html>
