@@ -18,16 +18,52 @@ body {
 }
 
 /* SPLASH */
+/* breakpoints: 480px, 768px, 1024px, 1280px */
 
 .splash {
-    width: 100%; height: $splash-height;
+    width: 100%; height: $splash-height - 50px;
     margin: 0; padding: 0;
     position: relative;
-    background: #111;
+    overflow: hidden;
+    background: #fff;
+
+    @include susy-breakpoint(480px, $susy) {
+        height: $splash-height;
+
+        .calltoaction {
+            width: 400px !important; height: 200px !important;
+        }
+
+        a {
+            height: 60px !important;
+            padding: 0 28px !important;
+            font-size: 18px !important;
+            line-height: 60px !important;
+        }
+    }
+    @include susy-breakpoint(768px, $susy) {
+        height: $splash-height + 100px;
+    }
+    @include susy-breakpoint(1024px, $susy) {
+        height: $splash-height + 250px;
+
+        .calltoaction {
+            width: 600px !important; height: 265px !important;
+        }
+        a {
+            height: 74px !important;
+            padding: 0 36px !important;
+            font-size: 24px !important;
+            line-height: 74px !important;
+        }
+    }
+    @include susy-breakpoint(1280px, $susy) {
+        height: $splash-height + 400px;
+    }
 
     .calltoaction {
         @include absolute-center;
-        width: 600px; height: 265px;
+        width: 300px; height: 150px;
         text-align: center;
         z-index: 2;
 
@@ -38,16 +74,23 @@ body {
         $height: 50px;
         a {
             width: auto; height: $height;
-            margin: 10px auto 0 auto; padding: 0 20px;
+            margin: 6px auto 0 auto; padding: 0 24px;
             display: inline-block;
+            font-size: 16px;
+            font-weight: 700;
             text-align: center;
             text-decoration: none;
             text-transform: uppercase;
             line-height: $height;
             letter-spacing: 2px;
-            background: #fff;
-            color: #000;
-            border: 4px solid #000;
+            background: #000;
+            color: #fff;
+            // border: 5px solid #000;
+
+            &:hover {
+                background: #fff;
+                color: #000;
+            }
         }
     }
 
@@ -59,21 +102,25 @@ body {
 
         .ribbons {
             position: absolute;
-            top: 0; right: 40px;
+            top: 0; right: $default-side-padding;
             font-size: 0;
 
-            $width: 100px;
-            $height: 160px;
+            $width: 90px;
+            $height: 140px;
             $background: white;
             .ribbon {
                 width: $width; height: $height;
                 margin-left: 10px;
                 position: relative;
-                display: inline-block;
+                display: none;
                 font-size: $default-font-size;
                 text-align: center;
                 line-height: $height;
                 background: $background;
+
+                @include susy-breakpoint(1024px, $susy) {
+                    display: inline-block;
+                }
 
                 &:after {
                     content: "";
@@ -102,7 +149,7 @@ body {
         .layer {
             width: 100%; height: 100%;
 
-            $crop: 10%;
+            $crop: 25%;
             &>img {
                 @include absolute-center;
                 width: 100% + $crop;
@@ -118,13 +165,14 @@ body {
 
     p {
         @include span(10);
-        @include susy-breakpoint(640px, $susy) {
+        @include susy-breakpoint(768px, $susy) {
             @include span(8);
-            padding: 140px span(2);
+            padding: 80px span(2);
+            font-size: 20px;
         }
-        margin: 0; padding: 120px span(1);
+        margin: 0; padding: 60px span(1);
         position: relative;
-        font-size: 22px;
+        font-size: 16px;
         text-align: center;
         line-height: 42px;
         letter-spacing: 1px;
@@ -166,26 +214,30 @@ body {
     height: 80px;
     background: #000;
     line-height: 80px;
+    font-size: 14px;
 
     .chambara {
-        margin-left: 40px;
+        margin-left: $default-side-padding;
         display: inline-block;
-        font-size: 16px;
         vertical-align: middle;
         float: left;
     }
     .socialmedia {
-        margin-right: 40px;
+        margin-right: $default-side-padding;
         display: inline-block;
-        font-size: 16px;
         vertical-align: middle;
         float: right;
 
         li {
-            margin-left: 20px;
+            margin-left: 10px;
             display: inline-block;
             text-decoration: none;
             list-style: none;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
         }
     }
 }

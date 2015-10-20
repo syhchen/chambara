@@ -1,10 +1,11 @@
 /* defaults */
 /* ======== */
 
-$default-font                : 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$default-font                : 'Open Sans', 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
 $default-font-size           : 16px !default;
 $default-background          : #000 !default;
 $default-color               : #fff !default;
+$default-side-padding        : 30px;
 
 /* grid */
 /* ==== */
@@ -46,4 +47,4 @@ $susy: (
 
 /* splash */
 /* ====== */
-$splash-height               : 740px;
+$splash-height               : 300px;

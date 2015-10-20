@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Designed and developed by Stephen Chen. Website: http://stephenc.me/ -->
+        <!-- Designed and developed by Stephen Chen (http://stephenc.me/) -->
         <meta name="author" content="Stephen Chen">
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Chambara</title>
-        <meta name="description" content="Chambara - Splitscreen Stealth Action.">
+        <meta name="description" content="Chambara is a local multiplayer stealth-deathmatch game with only two colors, allowing players to seamlessly camouflage themselves with the environment. This empowers players to sneak, search, and ambush each other in dramatic, stylish duels.">
         <meta name="keywords" content="Chambara, Chambara Game, Team OK, videogames, Dare to be Digital, USC Games, USC, Overly Kinetic, multiplayer games, indie games, local multiplayer, stealth">
         <link rel="icon" href="favicon.ico">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/temp.css">
     </head>
     <body>
+
+        <!-- TODO: preload images until videos load, parallax on the screenshots, Open Sans?, add option to subscribe to newsletter only -->
+
         <div class="content">
             <section class="splash">
                 <div class="calltoaction">
@@ -25,13 +30,13 @@
                     </div>
                 </div>
                 <ul class="scene" id="scene">
-                    <li class="layer" data-depth="0.00"><img src="img/splash/0_sky_lossy.png"></li>
-                    <li class="layer" data-depth="0.15"><img src="img/splash/0_lanterns.png"></li>
-                    <li class="layer" data-depth="0.30"><img src="img/splash/1_buildings.png"></li>
-                    <li class="layer" data-depth="0.45"><img src="img/splash/2_lanterns.png"></li>
-                    <li class="layer" data-depth="0.60"><img src="img/splash/3_buildings.png"></li>
-                    <li class="layer" data-depth="0.75"><img src="img/splash/4_buildings.png"></li>
-                    <li class="layer" data-depth="0.90"><img src="img/splash/5_lanterns.png"></li>
+                    <li class="layer" data-depth="0.00"><img src="img/splash/0_sky_back_lossy.png"></li>
+                    <li class="layer" data-depth="0.10"><img src="img/splash/1_lanterns_floating_lossy.png"></li>
+                    <li class="layer" data-depth="0.20"><img src="img/splash/2_buildings_back_lossy.png"></li>
+                    <li class="layer" data-depth="0.30"><img src="img/splash/3_lanterns_back_lossy.png"></li>
+                    <li class="layer" data-depth="0.40"><img src="img/splash/4_buildings_middle_lossy.png"></li>
+                    <li class="layer" data-depth="0.50"><img src="img/splash/5_buildings_front_lossy.png"></li>
+                    <li class="layer" data-depth="0.60"><img src="img/splash/6_lanterns_front_lossy.png"></li>
                 </ul>
             </section>
             <section class="oneliner">
@@ -41,7 +46,7 @@
 
             <!-- TODO: refactor START -->
             <section class="thegame">
-                <div class="section stuff" style="background-image: url('img/movies/0_level.gif'); background-size: cover;"></div>
+                <!-- <div class="section stuff" style="background-image: url('img/movies/0_level.gif'); background-size: cover;"></div>
                 <div class="section">
                     <div class="skew middle black">
                         <div class="content">Mastery comes with spatial understanding.</div>
@@ -53,7 +58,7 @@
                         <div class="content"><p>Positioning in 3D space makes you invisible from one angle, but vulnerable from another. Maneuver skillfully to lure opponents into ambushes!</p></div>
                     </div>
                 </div>
-                <div class="section stuff" style="background-image: url('img/movies/coremechanic.gif'); background-size: cover;"></div>
+                <div class="section stuff" style="background-image: url('img/movies/coremechanic.gif'); background-size: cover;"></div> -->
                 <!-- <div class="section">
                     <div class="skew middle black">
                         <div class="content"><p>Positioning in 3D space makes you invisible from one angle, but vulnerable from another. Maneuver skillfully to lure opponents into ambushes!</p></div>
@@ -61,6 +66,9 @@
                 </div> -->
             </section>
             <!-- refactor END -->
+
+            <!-- ADD TEAM MEMBER SECTION -->
+
 
             <section class="download" id="download">
                 <h1>Get The Demo</h1>
@@ -75,9 +83,9 @@
             <footer class="footer">
                 <div class="chambara">Chambara &copy; 2015</div>
                 <ul class="socialmedia">
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Tumblr</li>
+                    <li><a href="https://www.facebook.com/teamokgames" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/teamokgames" target="_blank">Twitter</a></li>
+                    <li><a href="http://overlykinetic.tumblr.com/" target="_blank">Tumblr</a></li>
                 </ul>
             </footer>
         </div>
