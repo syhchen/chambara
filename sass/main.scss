@@ -188,10 +188,15 @@ body {
 .thegame {
     // @include skew;
     .parallax-window {
-        height: 320px;
+        height: 360px;
 
         background-size: cover;
         background-position: center;
+
+        &.coremechanic {
+            // TODO: offset from top
+            background-position: center;
+        }
     }
     .blurb {
         height: 280px;
@@ -208,6 +213,7 @@ body {
             margin: 0; padding: 60px span(1);
             position: relative;
             font-size: 16px;
+            font-style: italic;
             text-align: center;
             line-height: 42px;
             letter-spacing: 1px;

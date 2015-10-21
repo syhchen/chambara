@@ -1,0 +1,127 @@
+/* line 1, ../sass/temp.scss */
+.text {
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 640px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: none;
+  color: #FFF;
+  z-index: 2;
+  font-family: Proxima Nova;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 48px;
+}
+
+/* line 16, ../sass/temp.scss */
+.section {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 21, ../sass/temp.scss */
+.section .skew.top:before {
+  width: 100%;
+  height: 1200px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  overflow: visible;
+  z-index: 0;
+  content: '';
+  transform: skewY(-3deg);
+}
+
+/* line 30, ../sass/temp.scss */
+.section .skew.middle:before {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: -40px;
+  overflow: visible;
+  z-index: 0;
+  content: '';
+  transform: skewY(2deg);
+}
+
+/* line 39, ../sass/temp.scss */
+.section .skew.middle:after {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  overflow: visible;
+  z-index: 0;
+  content: '';
+  transform: skewY(-2deg);
+}
+
+/* line 48, ../sass/temp.scss */
+.black:before, .black:after {
+  background: black;
+}
+
+/* line 51, ../sass/temp.scss */
+.black .content {
+  background: black;
+  color: white;
+}
+
+/* line 55, ../sass/temp.scss */
+.white:before, .white:after {
+  background: white;
+}
+
+/* line 58, ../sass/temp.scss */
+.white .content {
+  background: white;
+  color: black;
+}
+
+/* line 62, ../sass/temp.scss */
+.section .skew .content {
+  height: 300px;
+  margin: 0 auto;
+  line-height: 250px;
+}
+/* line 67, ../sass/temp.scss */
+.section .skew .content p {
+  width: 50%;
+  padding-left: 40px;
+  display: inline-block;
+  line-height: 36px;
+}
+
+/* line 74, ../sass/temp.scss */
+.content {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+/* line 79, ../sass/temp.scss */
+.section.stuff {
+  height: 600px;
+  z-index: -999 !important;
+}
+
+/* line 83, ../sass/temp.scss */
+.right {
+  width: 50%;
+  height: 100%;
+  padding-top: 180px;
+  padding-left: 50px;
+  float: right;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: Proxima Nova;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+}
