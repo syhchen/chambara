@@ -11,11 +11,10 @@
         <link rel="icon" href="favicon.ico">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
-        <!-- <link rel="stylesheet" href="css/temp.css"> -->
     </head>
     <body>
 
-        <!-- TODO: preload images until videos load, parallax on the screenshots, add option to subscribe to newsletter only, add links to laurels -->
+        <!-- TODO: preload images until videos load, parallax on the screenshots, add option to subscribe to newsletter only, add links to laurels, GA -->
 
         <div class="content">
             <section class="splash">
@@ -44,7 +43,6 @@
             </section>
 
             <section class="thegame">
-                <!-- <div class="parallax-window" data-parallax="scroll" data-speed="0.2" data-image-src="img/movies/0_level.gif"></div> -->
                 <div class="parallax-window coremechanic" style="background-image: url('img/movies/coremechanic.gif');"></div>
                 <div class="blurb"><p>Positioning in 3D space makes you invisible from one angle, but vulnerable from another.</p></div>
                 <div class="parallax-window" style="background-image: url('img/movies/1_level_left.gif');"></div>
@@ -99,7 +97,6 @@
                 <h1>Designed and developed by <a href="https://www.facebook.com/teamokgames">Team OK</a> and <a href="">friends</a>.</h1>
                 <div class="info">A <a href="http://games.usc.edu/">USC Advanced Games</a> project.</div>
                 <div class="info">Initiated at <a href="http://www.daretobedigital.com/265_Dare-To-Be-Digital-2014-Games.html">Dare to be Digital 2014</a>.</div>
-                <!-- <a href="http://www.daretobedigital.com/"><img src="img/dare.png" alt="Dare to be Digital"></a> -->
                 <div class="overlay"></div>
             </section>
 
@@ -114,7 +111,15 @@
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/parallax.js"></script>
-        <!-- <script src="js/parallax_scroll.js"></script> -->
         <script src="js/main.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-69160178-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>

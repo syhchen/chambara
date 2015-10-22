@@ -283,7 +283,7 @@ body {
   display: block;
   clear: both;
 }
-/* line 166, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 .oneliner p {
   width: 83.05085%;
   float: left;
@@ -298,7 +298,7 @@ body {
   z-index: 1;
 }
 @media (min-width: 768px) {
-  /* line 166, ../sass/main.scss */
+  /* line 168, ../sass/main.scss */
   .oneliner p {
     width: 66.10169%;
     float: left;
@@ -307,25 +307,24 @@ body {
     font-size: 20px;
   }
 }
-/* line 181, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .oneliner p strong {
   text-transform: uppercase;
 }
 
 /* THE GAME */
-/* line 190, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
 .thegame .parallax-window {
   height: 360px;
   background-size: cover;
   background-position: center;
 }
-/* line 196, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .thegame .parallax-window.coremechanic {
   background-position: center;
 }
-/* line 201, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .thegame .blurb {
-  height: 280px;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -336,13 +335,13 @@ body {
   display: block;
   clear: both;
 }
-/* line 206, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 .thegame .blurb p {
   width: 83.05085%;
   float: left;
   margin-right: 1.69492%;
   margin: 0;
-  padding: 60px 6.77966%;
+  padding: 80px 6.77966%;
   position: relative;
   font-size: 16px;
   font-style: italic;
@@ -352,25 +351,25 @@ body {
   z-index: 1;
 }
 @media (min-width: 768px) {
-  /* line 206, ../sass/main.scss */
+  /* line 208, ../sass/main.scss */
   .thegame .blurb p {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%;
-    padding: 80px 15.25424%;
+    padding: 100px 15.25424%;
     font-size: 20px;
   }
 }
 
 /* DOWNLOAD */
-/* line 226, ../sass/main.scss */
+/* line 228, ../sass/main.scss */
 .download {
   padding: 100px 30px;
   text-align: center;
   background: #fff;
   color: #000;
 }
-/* line 232, ../sass/main.scss */
+/* line 234, ../sass/main.scss */
 .download h1 {
   margin-bottom: 50px;
   font-size: 24px;
@@ -378,11 +377,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/* line 240, ../sass/main.scss */
+/* line 242, ../sass/main.scss */
 .download .mc-field-group {
   font-size: 0;
 }
-/* line 243, ../sass/main.scss */
+/* line 245, ../sass/main.scss */
 .download .mc-field-group label, .download .mc-field-group input {
   margin: 0;
   padding: 4px 8px;
@@ -391,7 +390,7 @@ body {
   vertical-align: middle;
   border: 2px solid #000;
 }
-/* line 250, ../sass/main.scss */
+/* line 252, ../sass/main.scss */
 .download .mc-field-group label {
   height: 32px;
   text-transform: uppercase;
@@ -400,12 +399,12 @@ body {
   background: #000;
   color: #fff;
 }
-/* line 258, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 .download .mc-field-group input {
   width: 230px;
   height: 32px;
 }
-/* line 263, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 .download #mc-embedded-subscribe {
   width: 240px;
   margin: 50px 0 0 0;
@@ -417,17 +416,17 @@ body {
   background: #000;
   color: #fff;
 }
-/* line 273, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 .download #mc-embedded-subscribe:hover {
   cursor: pointer;
 }
-/* line 278, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 .download a, .download .subscribe {
   font-size: 14px;
 }
 
 /* AS FEATURED ON */
-/* line 284, ../sass/main.scss */
+/* line 286, ../sass/main.scss */
 .asfeaturedon {
   height: 220px;
   width: 100%;
@@ -438,11 +437,11 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
 }
-/* line 294, ../sass/main.scss */
+/* line 296, ../sass/main.scss */
 .asfeaturedon::-webkit-scrollbar {
   display: none;
 }
-/* line 298, ../sass/main.scss */
+/* line 300, ../sass/main.scss */
 .asfeaturedon h1 {
   margin-left: 30px;
   float: left;
@@ -451,13 +450,13 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* line 307, ../sass/main.scss */
+/* line 309, ../sass/main.scss */
 .asfeaturedon ul {
   height: 220px;
   width: 4400px;
   display: inline-block;
 }
-/* line 316, ../sass/main.scss */
+/* line 318, ../sass/main.scss */
 .asfeaturedon ul li {
   height: 220px;
   display: inline-block;
@@ -465,7 +464,7 @@ body {
   white-space: normal;
   float: left;
 }
-/* line 323, ../sass/main.scss */
+/* line 325, ../sass/main.scss */
 .asfeaturedon ul li:before {
   content: "";
   width: 1px;
@@ -476,13 +475,13 @@ body {
   vertical-align: middle;
   background: rgba(255, 255, 255, 0.2);
 }
-/* line 333, ../sass/main.scss */
+/* line 335, ../sass/main.scss */
 .asfeaturedon ul li img, .asfeaturedon ul li p {
   padding-left: 40px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 339, ../sass/main.scss */
+/* line 341, ../sass/main.scss */
 .asfeaturedon ul li p {
   width: 300px;
   font-size: 16px;
@@ -490,7 +489,7 @@ body {
 }
 
 /* TEAM */
-/* line 349, ../sass/main.scss */
+/* line 351, ../sass/main.scss */
 .team {
   padding: 50px 20px;
   position: relative;
@@ -502,7 +501,7 @@ body {
   background-position: center;
   color: #fff;
 }
-/* line 360, ../sass/main.scss */
+/* line 362, ../sass/main.scss */
 .team .overlay {
   position: absolute;
   top: 0;
@@ -512,13 +511,13 @@ body {
   background: rgba(0, 0, 0, 0.4);
   z-index: 0;
 }
-/* line 367, ../sass/main.scss */
+/* line 369, ../sass/main.scss */
 .team * > a {
   font-weight: 700;
   text-decoration: none;
   color: inherit;
 }
-/* line 373, ../sass/main.scss */
+/* line 375, ../sass/main.scss */
 .team h1 {
   margin-bottom: 12px;
   position: relative;
@@ -526,47 +525,47 @@ body {
   line-height: 36px;
   z-index: 1;
 }
-/* line 381, ../sass/main.scss */
+/* line 383, ../sass/main.scss */
 .team .info {
   position: relative;
   z-index: 1;
 }
-/* line 386, ../sass/main.scss */
+/* line 388, ../sass/main.scss */
 .team img {
   width: 140px;
   margin-top: 25px;
 }
 
 /* FOOTER */
-/* line 393, ../sass/main.scss */
+/* line 395, ../sass/main.scss */
 .footer {
   height: 80px;
   background: #000;
   line-height: 80px;
   font-size: 14px;
 }
-/* line 399, ../sass/main.scss */
+/* line 401, ../sass/main.scss */
 .footer .chambara {
   margin-left: 30px;
   display: inline-block;
   vertical-align: middle;
   float: left;
 }
-/* line 405, ../sass/main.scss */
+/* line 407, ../sass/main.scss */
 .footer .socialmedia {
   margin-right: 30px;
   display: inline-block;
   vertical-align: middle;
   float: right;
 }
-/* line 411, ../sass/main.scss */
+/* line 413, ../sass/main.scss */
 .footer .socialmedia li {
   margin-left: 10px;
   display: inline-block;
   text-decoration: none;
   list-style: none;
 }
-/* line 417, ../sass/main.scss */
+/* line 419, ../sass/main.scss */
 .footer .socialmedia li a {
   color: #fff;
   text-decoration: none;
