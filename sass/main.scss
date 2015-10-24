@@ -242,14 +242,14 @@ body {
     .mc-field-group {
         font-size: 0;
 
-        label, input {
+        .email-label, input {
             margin: 0; padding: 4px 8px;
             display: inline-block;
             font-size: 18px;
             vertical-align: middle;
             border: 2px solid #000;
         }
-        label {
+        .email-label {
             height: 32px;
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -259,6 +259,19 @@ body {
         }
         input {
             width: 230px; height: 32px;
+        }
+        .subscription {
+            padding-top: 10px;
+            font-size: 16px;
+            input {
+                width: 30px;
+            }
+            label {
+                height: 32px;
+                display: inline-block;
+                vertical-align: top;
+                line-height: 32px;
+            }
         }
     }
 
