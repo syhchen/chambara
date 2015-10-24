@@ -390,6 +390,44 @@ body {
         margin-top: 25px;
     }
 }
+.friends {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    font-size: 0;
+    text-align: center;
+    background: rgba(0,0,0,0.94);
+    overflow-y: scroll;
+    z-index: 999999;
+    display: none;
+
+    .close {
+        position: absolute;
+        top: $default-side-padding; right: $default-side-padding;
+        font-size: 24px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    h1 {
+        padding-top: 100px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    ul {
+        width: 50%;
+        padding: 150px 0;
+        display: inline-block;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        text-align: center;
+
+        li {
+            a {
+                color: white;
+            }
+        }
+    }
+}
 
 /* FOOTER */
 .footer {

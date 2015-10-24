@@ -536,36 +536,80 @@ body {
   margin-top: 25px;
 }
 
+/* line 393, ../sass/main.scss */
+.friends {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.94);
+  overflow-y: scroll;
+  z-index: 999999;
+  display: none;
+}
+/* line 403, ../sass/main.scss */
+.friends .close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 410, ../sass/main.scss */
+.friends h1 {
+  padding-top: 100px;
+  font-size: 24px;
+  font-weight: 700;
+}
+/* line 415, ../sass/main.scss */
+.friends ul {
+  width: 50%;
+  padding: 150px 0;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+/* line 425, ../sass/main.scss */
+.friends ul li a {
+  color: white;
+}
+
 /* FOOTER */
-/* line 395, ../sass/main.scss */
+/* line 433, ../sass/main.scss */
 .footer {
   height: 80px;
   background: #000;
   line-height: 80px;
   font-size: 14px;
 }
-/* line 401, ../sass/main.scss */
+/* line 439, ../sass/main.scss */
 .footer .chambara {
   margin-left: 30px;
   display: inline-block;
   vertical-align: middle;
   float: left;
 }
-/* line 407, ../sass/main.scss */
+/* line 445, ../sass/main.scss */
 .footer .socialmedia {
   margin-right: 30px;
   display: inline-block;
   vertical-align: middle;
   float: right;
 }
-/* line 413, ../sass/main.scss */
+/* line 451, ../sass/main.scss */
 .footer .socialmedia li {
   margin-left: 10px;
   display: inline-block;
   text-decoration: none;
   list-style: none;
 }
-/* line 419, ../sass/main.scss */
+/* line 457, ../sass/main.scss */
 .footer .socialmedia li a {
   color: #fff;
   text-decoration: none;

@@ -7,3 +7,12 @@ $('#download-link').click(function(e) {
        scrollTop: $("#download").offset().top
     });
 });
+
+$('#friends-link').click(function(e) {
+    e.preventDefault();
+    $('#friends').css('display', 'block');
+});
+$('#friends>.close').click(function(e) {
+    e.preventDefault();
+    $('#friends').css('display', 'none');
+});
