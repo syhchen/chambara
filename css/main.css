@@ -533,7 +533,11 @@ body {
   text-decoration: none;
   color: inherit;
 }
-/* line 388, ../sass/main.scss */
+/* line 387, ../sass/main.scss */
+.team #friends-link {
+  text-decoration: underline;
+}
+/* line 391, ../sass/main.scss */
 .team h1 {
   margin-bottom: 12px;
   position: relative;
@@ -541,18 +545,18 @@ body {
   line-height: 36px;
   z-index: 1;
 }
-/* line 396, ../sass/main.scss */
+/* line 399, ../sass/main.scss */
 .team .info {
   position: relative;
   z-index: 1;
 }
-/* line 401, ../sass/main.scss */
+/* line 404, ../sass/main.scss */
 .team img {
   width: 140px;
   margin-top: 25px;
 }
 
-/* line 406, ../sass/main.scss */
+/* line 409, ../sass/main.scss */
 .friends {
   position: fixed;
   top: 0;
@@ -566,7 +570,7 @@ body {
   z-index: 999999;
   display: none;
 }
-/* line 416, ../sass/main.scss */
+/* line 419, ../sass/main.scss */
 .friends .close {
   position: absolute;
   top: 30px;
@@ -575,13 +579,13 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 423, ../sass/main.scss */
+/* line 426, ../sass/main.scss */
 .friends h1 {
   padding-top: 100px;
   font-size: 24px;
   font-weight: 700;
 }
-/* line 428, ../sass/main.scss */
+/* line 431, ../sass/main.scss */
 .friends ul {
   width: 50%;
   padding: 150px 0;
@@ -591,41 +595,41 @@ body {
   letter-spacing: 1px;
   text-align: center;
 }
-/* line 438, ../sass/main.scss */
+/* line 441, ../sass/main.scss */
 .friends ul li a {
   color: white;
 }
 
 /* FOOTER */
-/* line 446, ../sass/main.scss */
+/* line 449, ../sass/main.scss */
 .footer {
   height: 80px;
   background: #000;
   line-height: 80px;
   font-size: 14px;
 }
-/* line 452, ../sass/main.scss */
+/* line 455, ../sass/main.scss */
 .footer .chambara {
   margin-left: 30px;
   display: inline-block;
   vertical-align: middle;
   float: left;
 }
-/* line 458, ../sass/main.scss */
+/* line 461, ../sass/main.scss */
 .footer .socialmedia {
   margin-right: 30px;
   display: inline-block;
   vertical-align: middle;
   float: right;
 }
-/* line 464, ../sass/main.scss */
+/* line 467, ../sass/main.scss */
 .footer .socialmedia li {
   margin-left: 10px;
   display: inline-block;
   text-decoration: none;
   list-style: none;
 }
-/* line 470, ../sass/main.scss */
+/* line 473, ../sass/main.scss */
 .footer .socialmedia li a {
   color: #fff;
   text-decoration: none;
