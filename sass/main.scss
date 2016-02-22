@@ -163,19 +163,20 @@ body {
 .oneliner {
     @include container;
 
+    text-align: center;
+
     // border-top: 2px solid white;
 
     p {
         @include span(10);
         @include susy-breakpoint(768px, $susy) {
             @include span(8);
-            padding: 80px span(2);
+            padding: 80px span(2) 0 span(2);
             font-size: 20px;
         }
         margin: 0; padding: 60px span(1);
         position: relative;
         font-size: 16px;
-        text-align: center;
         line-height: 42px;
         letter-spacing: 1px;
         z-index: 1;
@@ -184,6 +185,12 @@ body {
             text-transform: uppercase;
         }
     }
+}
+.video {
+    width: 560px; height: 315px;
+    max-width: 100%;
+    padding: 80px 0;
+    display: inline-block;
 }
 
 /* THE GAME */

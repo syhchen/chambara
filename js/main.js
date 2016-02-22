@@ -4,7 +4,7 @@ var parallax = new Parallax(scene);
 $('#download-link').click(function(e) {
     e.preventDefault();
     $('html,body').animate({
-       scrollTop: $("#download").offset().top
+       scrollTop: $("#video").offset().top
     });
 });
 
