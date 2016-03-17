@@ -473,6 +473,10 @@ body {
         vertical-align: middle;
         float: right;
 
+        .bold {
+            font-weight: bold;
+        }
+
         li {
             margin-left: 10px;
             display: inline-block;
