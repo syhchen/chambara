@@ -188,11 +188,11 @@ body {
 }
 .video {
     width: 560px; height: 315px;
-    max-width: 100%;
-    margin: 60px 0 80px 0;
+    max-width: 90%;
+    padding: 40px 0 80px 0;
     display: inline-block;
-    border: 3px solid #111;
-    border-radius: 1px;
+    // border: 3px solid #111;
+    // border-radius: 1px;
 }
 
 /* THE GAME */
@@ -472,6 +472,10 @@ body {
         display: inline-block;
         vertical-align: middle;
         float: right;
+
+        .bold {
+            font-weight: bold;
+        }
 
         li {
             margin-left: 10px;
