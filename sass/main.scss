@@ -304,6 +304,99 @@ body {
     }
 }
 
+/* EXTRAS */
+.extras {
+    padding: 100px $default-side-padding;
+    text-align: center;
+    background: #000;
+    color: #fff;
+
+    h1 {
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .download-links > div {
+        display: inline-block;
+        width: calc(50% - 18px);
+
+        &:first-child {
+            margin-right:30px;
+        }
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    @media (max-width: 768px) {
+        .download-links > div {
+            width: 100%;
+
+            &:first-child {
+                margin-right:0;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
+
+/* PLATFORMS */
+.platforms {
+    padding: 100px $default-side-padding;
+    text-align: center;
+    background: #fff;
+    color: #000;
+
+    h1 {
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .platform-logos {
+        margin-left: auto;
+        margin-right: auto;
+        width: 66%;
+
+        img {
+            display: inline-block;
+            width: 45%;    
+        }
+    } 
+
+    .ps4 {
+        margin-right: 9%;
+    }
+
+    @media (max-width: 768px) {
+        .platform-logos {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .platform-logos {
+            width: 80%;
+
+            img {
+                display: block;
+                width: 100%; 
+            }
+        }
+
+        .ps4 {
+            margin-right: 0;
+            margin-bottom: 50px;
+        }
+    }
+}
+
 /* AS FEATURED ON */
 .asfeaturedon {
     $height: 220px;
@@ -461,12 +554,13 @@ body {
     line-height: 80px;
     font-size: 14px;
 
-    .chambara {
-        margin-left: $default-side-padding;
+    .esrb {
         display: inline-block;
+        height: 53px;
+        margin-left: 10px;
         vertical-align: middle;
-        float: left;
     }
+    
     .socialmedia {
         margin-right: $default-side-padding;
         display: inline-block;
