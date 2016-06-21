@@ -8,7 +8,6 @@
 @import "common";
 
 /* SPLASH */
-/* breakpoints: 480px, 768px, 1024px, 1280px */
 
 .splash {
     width: 100%; height: $splash-height - 50px;
@@ -17,7 +16,7 @@
     overflow: hidden;
     background: #fff;
 
-    @include susy-breakpoint(480px, $susy) {
+    @include susy-breakpoint($break-small, $susy) {
         height: $splash-height;
 
         .calltoaction {
@@ -31,10 +30,10 @@
             line-height: 60px !important;
         }
     }
-    @include susy-breakpoint(768px, $susy) {
+    @include susy-breakpoint($break-medium, $susy) {
         height: $splash-height + 100px;
     }
-    @include susy-breakpoint(1024px, $susy) {
+    @include susy-breakpoint($break-large, $susy) {
         height: $splash-height + 250px;
 
         .calltoaction {
@@ -47,7 +46,7 @@
             line-height: 74px !important;
         }
     }
-    @include susy-breakpoint(1280px, $susy) {
+    @include susy-breakpoint($break-largest, $susy) {
         height: $splash-height + 400px;
     }
 
@@ -111,7 +110,7 @@
 
     p {
         @include span(10);
-        @include susy-breakpoint(768px, $susy) {
+        @include susy-breakpoint($break-medium, $susy) {
             @include span(8);
             padding: 80px span(2) 0 span(2);
             font-size: 20px;
@@ -176,7 +175,7 @@
 
         p {
             @include span(10);
-            @include susy-breakpoint(768px, $susy) {
+            @include susy-breakpoint($break-medium, $susy) {
                 @include span(8);
                 padding: 100px span(2);
                 font-size: 20px;
@@ -289,7 +288,7 @@
         margin-right: auto;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: $break-medium) {
         .media-links > div {
             width: 100%;
 
@@ -330,13 +329,13 @@
         margin-right: 9%;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: $break-medium) {
         .platform-logos {
             width: 100%;
         }
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: $break-small) {
         .platform-logos {
             width: 80%;
 

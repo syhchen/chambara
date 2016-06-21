@@ -7,6 +7,14 @@ $default-background          : #000 !default;
 $default-color               : #fff !default;
 $default-side-padding        : 30px;
 
+/* breakpoints */
+/* =========== */
+
+$break-small                 : 480px;
+$break-medium                : 768px;
+$break-large                 : 1024px;
+$break-largest               : 1280px;
+
 /* grid */
 /* ==== */
 

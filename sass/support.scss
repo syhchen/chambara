@@ -13,7 +13,7 @@
   width: 50%;
   min-width: 480px;
 
-  @media (max-width: 768px) {
+  @media (max-width: $break-medium) {
     margin: 50px auto;
     width: 90%;
     min-width: 0;
