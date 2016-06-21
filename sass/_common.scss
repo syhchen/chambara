@@ -1,0 +1,68 @@
+@import "base";
+@import "compass/css3";
+
+%raven {
+    background: #000;
+    color: #fff;
+}
+
+%dove {
+    background: #fff;
+    color: #000;
+}
+
+body {
+    font-family: $default-font;
+    font-size: $default-font-size;
+    background: $default-background;
+    color: $default-color;
+}
+
+header {
+    background-color: #000;
+    @include background-image(linear-gradient(0deg, rgb(226,123,132), rgb(95,45,106)));
+    padding: 50px 0;
+    text-align: center;
+
+    img {
+        min-width: 320px;
+        width: 33%;
+    }
+}
+
+.footer {
+    height: 80px;
+    background: #000;
+    line-height: 80px;
+    font-size: 14px;
+
+    .esrb {
+        display: inline-block;
+        height: 53px;
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+
+    .socialmedia {
+        margin-right: $default-side-padding;
+        display: inline-block;
+        vertical-align: middle;
+        float: right;
+
+        .bold {
+            font-weight: bold;
+        }
+
+        li {
+            margin-left: 10px;
+            display: inline-block;
+            text-decoration: none;
+            list-style: none;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -5,28 +5,7 @@
 
 @import "compass/css3/flexbox";
 @import "compass/reset";
-@import "base";
-
-body {
-    font-family: $default-font;
-    font-size: $default-font-size;
-    background: $default-background;
-    color: $default-color;
-}
-
-%raven {
-    background: #000;
-    color: #fff;
-}
-
-%dove {
-    background: #fff;
-    color: #000;
-}
-
-.content {
-    margin: 0; padding: 0;
-}
+@import "common";
 
 /* SPLASH */
 /* breakpoints: 480px, 768px, 1024px, 1280px */
@@ -519,44 +498,6 @@ body {
         li {
             a {
                 color: white;
-            }
-        }
-    }
-}
-
-/* FOOTER */
-.footer {
-    height: 80px;
-    background: #000;
-    line-height: 80px;
-    font-size: 14px;
-
-    .esrb {
-        display: inline-block;
-        height: 53px;
-        margin-left: 10px;
-        vertical-align: middle;
-    }
-
-    .socialmedia {
-        margin-right: $default-side-padding;
-        display: inline-block;
-        vertical-align: middle;
-        float: right;
-
-        .bold {
-            font-weight: bold;
-        }
-
-        li {
-            margin-left: 10px;
-            display: inline-block;
-            text-decoration: none;
-            list-style: none;
-
-            a {
-                color: #fff;
-                text-decoration: none;
             }
         }
     }
