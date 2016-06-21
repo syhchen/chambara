@@ -1,5 +1,9 @@
+/* Common styles used throughout the site.
+   Import this in a page-specific stylesheet to get all the default styles. */
+
 @import "base";
 @import "compass/css3";
+@import "compass/reset";
 
 %raven {
     background: #000;

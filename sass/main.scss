@@ -1,17 +1,13 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Page-specific styles for the main page. */
 
 @import "compass/css3/flexbox";
-@import "compass/reset";
 @import "common";
 
 /* SPLASH */
 
 .splash {
+    $splash-height: 300px;
     width: 100%; height: $splash-height - 50px;
-    margin: 0; padding: 0;
     position: relative;
     overflow: hidden;
     background: #fff;

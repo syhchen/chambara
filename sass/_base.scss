@@ -1,3 +1,7 @@
+/* Definitions of variables, mixins, etc. used throughout the site.
+   You probably shouldn't import this directly in a page-specific stylesheet.
+   Use _common.scss (which imports this file itself) instead. */
+
 /* defaults */
 /* ======== */
 
@@ -52,7 +56,3 @@ $susy: (
 
     }
 }
-
-/* splash */
-/* ====== */
-$splash-height               : 300px;
