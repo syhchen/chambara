@@ -36,12 +36,24 @@
     margin-bottom: 1rem;
   }
 
-  ul {
-    list-style: initial;
+  table {
     margin-bottom: 1.5rem; // TODO this is a hack
   }
 
-  li {
-    margin-left: 1rem;
+  th, td {
+    padding: 0.33rem 0.66rem;
+    text-align: center;
+  }
+
+  th, td:first-child {
+    font-weight: 700;
+  }
+
+  th {
+    background: #ccc;
+  }
+
+  td:first-child {
+    background: #eee;
   }
 }

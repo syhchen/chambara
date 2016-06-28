@@ -179,11 +179,23 @@ header img {
   margin-bottom: 1rem;
 }
 /* line 39, ../sass/support.scss */
-.support ul {
-  list-style: initial;
+.support table {
   margin-bottom: 1.5rem;
 }
-/* line 44, ../sass/support.scss */
-.support li {
-  margin-left: 1rem;
+/* line 43, ../sass/support.scss */
+.support th, .support td {
+  padding: 0.33rem 0.66rem;
+  text-align: center;
+}
+/* line 48, ../sass/support.scss */
+.support th, .support td:first-child {
+  font-weight: 700;
+}
+/* line 52, ../sass/support.scss */
+.support th {
+  background: #ccc;
+}
+/* line 56, ../sass/support.scss */
+.support td:first-child {
+  background: #eee;
 }
