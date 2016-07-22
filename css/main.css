@@ -534,37 +534,33 @@ header img {
 /* line 318, ../sass/main.scss */
 .platforms .platform-logos img {
   display: inline-block;
-  width: 45%;
+  width: 50%;
+  margin-bottom: 35px;
 }
 /* line 324, ../sass/main.scss */
-.platforms .ps4 {
-  margin-right: 9%;
+.platforms .platform-logos .ps4-info {
+  margin-bottom: 100px;
 }
 @media (max-width: 768px) {
-  /* line 329, ../sass/main.scss */
+  /* line 330, ../sass/main.scss */
   .platforms .platform-logos {
     width: 100%;
   }
 }
 @media (max-width: 480px) {
-  /* line 335, ../sass/main.scss */
+  /* line 336, ../sass/main.scss */
   .platforms .platform-logos {
     width: 80%;
   }
-  /* line 338, ../sass/main.scss */
+  /* line 339, ../sass/main.scss */
   .platforms .platform-logos img {
     display: block;
     width: 100%;
   }
-  /* line 344, ../sass/main.scss */
-  .platforms .ps4 {
-    margin-right: 0;
-    margin-bottom: 50px;
-  }
 }
 
 /* AS FEATURED ON */
-/* line 352, ../sass/main.scss */
+/* line 348, ../sass/main.scss */
 .asfeaturedon {
   height: 220px;
   width: 100%;
@@ -575,11 +571,11 @@ header img {
   overflow-x: auto;
   overflow-y: hidden;
 }
-/* line 362, ../sass/main.scss */
+/* line 358, ../sass/main.scss */
 .asfeaturedon::-webkit-scrollbar {
   display: none;
 }
-/* line 366, ../sass/main.scss */
+/* line 362, ../sass/main.scss */
 .asfeaturedon h1 {
   margin-left: 30px;
   float: left;
@@ -588,13 +584,13 @@ header img {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* line 375, ../sass/main.scss */
+/* line 371, ../sass/main.scss */
 .asfeaturedon ul {
   height: 220px;
   width: 3140px;
   display: inline-block;
 }
-/* line 384, ../sass/main.scss */
+/* line 380, ../sass/main.scss */
 .asfeaturedon ul li {
   height: 220px;
   display: inline-block;
@@ -602,7 +598,7 @@ header img {
   white-space: normal;
   float: left;
 }
-/* line 391, ../sass/main.scss */
+/* line 387, ../sass/main.scss */
 .asfeaturedon ul li:before {
   content: "";
   width: 1px;
@@ -613,13 +609,13 @@ header img {
   vertical-align: middle;
   background: rgba(255, 255, 255, 0.2);
 }
-/* line 401, ../sass/main.scss */
+/* line 397, ../sass/main.scss */
 .asfeaturedon ul li img, .asfeaturedon ul li p {
   padding-left: 40px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 407, ../sass/main.scss */
+/* line 403, ../sass/main.scss */
 .asfeaturedon ul li p {
   width: 300px;
   font-size: 16px;
@@ -627,7 +623,7 @@ header img {
 }
 
 /* TEAM */
-/* line 417, ../sass/main.scss */
+/* line 413, ../sass/main.scss */
 .team {
   padding: 50px 20px;
   position: relative;
@@ -639,7 +635,7 @@ header img {
   background-position: center;
   color: #fff;
 }
-/* line 428, ../sass/main.scss */
+/* line 424, ../sass/main.scss */
 .team .overlay {
   position: absolute;
   top: 0;
@@ -649,17 +645,17 @@ header img {
   background: rgba(0, 0, 0, 0.4);
   z-index: 0;
 }
-/* line 435, ../sass/main.scss */
+/* line 431, ../sass/main.scss */
 .team * > a {
   font-weight: 700;
   text-decoration: none;
   color: inherit;
 }
-/* line 440, ../sass/main.scss */
+/* line 436, ../sass/main.scss */
 .team #friends-link {
   text-decoration: underline;
 }
-/* line 444, ../sass/main.scss */
+/* line 440, ../sass/main.scss */
 .team h1 {
   margin-bottom: 12px;
   position: relative;
@@ -667,18 +663,18 @@ header img {
   line-height: 36px;
   z-index: 1;
 }
-/* line 452, ../sass/main.scss */
+/* line 448, ../sass/main.scss */
 .team .info {
   position: relative;
   z-index: 1;
 }
-/* line 457, ../sass/main.scss */
+/* line 453, ../sass/main.scss */
 .team img {
   width: 140px;
   margin-top: 25px;
 }
 
-/* line 462, ../sass/main.scss */
+/* line 458, ../sass/main.scss */
 .friends {
   position: fixed;
   top: 0;
@@ -692,7 +688,7 @@ header img {
   z-index: 999999;
   display: none;
 }
-/* line 472, ../sass/main.scss */
+/* line 468, ../sass/main.scss */
 .friends .close {
   position: absolute;
   top: 30px;
@@ -701,13 +697,13 @@ header img {
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 479, ../sass/main.scss */
+/* line 475, ../sass/main.scss */
 .friends h1 {
   padding-top: 100px;
   font-size: 24px;
   font-weight: 700;
 }
-/* line 484, ../sass/main.scss */
+/* line 480, ../sass/main.scss */
 .friends ul {
   width: 50%;
   padding: 150px 0;
@@ -717,7 +713,7 @@ header img {
   letter-spacing: 1px;
   text-align: center;
 }
-/* line 494, ../sass/main.scss */
+/* line 490, ../sass/main.scss */
 .friends ul li a {
   color: white;
 }

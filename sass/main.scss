@@ -317,12 +317,13 @@
 
         img {
             display: inline-block;
-            width: 45%;    
+            width: 50%;
+            margin-bottom: 35px;
         }
-    } 
 
-    .ps4 {
-        margin-right: 9%;
+        .ps4-info {
+            margin-bottom: 100px;
+        }
     }
 
     @media (max-width: $break-medium) {
@@ -339,11 +340,6 @@
                 display: block;
                 width: 100%; 
             }
-        }
-
-        .ps4 {
-            margin-right: 0;
-            margin-bottom: 50px;
         }
     }
 }
